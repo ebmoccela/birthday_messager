@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalendarViewFragment">
+
+    <com.applandeo.materialcalendarview.CalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:headerColor="@android:color/holo_red_light"
+        app:selectionColor="@android:color/holo_red_light"
+        app:type="one_day_picker"
+        app:eventsEnabled="true"/>
+
+</FrameLayout>

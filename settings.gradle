@@ -1,0 +1,2 @@
+rootProject.name='birthday_scheduler'
+include ':app'
